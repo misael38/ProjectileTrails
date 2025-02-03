@@ -1,0 +1,28 @@
+---
+# Configuration for ProjectileTrails Plugin
+# Use '&' for color format
+# Use '\n' to make a new line
+# Message: particle change. {particle} is the name of the particle
+change-message: "&aYou've changed your projectile particle to the &b{particle}&a particle."
+
+# Message: turn off particles.
+disable-message: "&6You've disabled your projectile particles."
+
+# Error: no permission. {particle} is the name of the particle
+error-perms: "&cYou don't have permission to use the &f{particle}&c particle."
+
+# Error: player's selected particle is the same as their original one. {particle} is the name of the particle
+error-same: "&cYour particle is already set to the &f{particle}&c particle."
+
+# Menu settings
+# Menu title
+title-message: "&l&bProjectile Trails"
+# Menu content
+content-message: "&aSelect your favorite particle:"
+
+# Which projectiles you want to apply the particles to?
+# true = enable         false = disable
+enable-arrow: true
+enable-egg: false
+enable-snowball: false
+...
