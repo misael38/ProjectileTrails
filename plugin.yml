@@ -1,0 +1,40 @@
+---
+name: ProjectileTrails
+main: Fadhel\ProjectileTrails\Main
+version: 1.0.0
+api: 5.0.0
+author: Fadhel, misael38
+website: https://github.com/DimBis, https://github.com/misael38
+description: "Spawn particles to player's projectiles if they have permissions"
+permissions:
+  projectiletrails.command:
+    description: "Allows the player to use the projectiletrails command"
+    default: op
+  projectiletrails.angryvillager:
+    default: op
+  projectiletrails.enchantment:
+    default: op
+  projectiletrails.explode:
+    default: op
+  projectiletrails.heart:
+    default: op
+  projectiletrails.happyvillager:
+    default: op
+  projectiletrails.flame:
+    default: op
+  projectiletrails.lava:
+    default: op
+  projectiletrails.lavadrip:
+    default: op
+  projectiletrails.portal:
+    default: op
+  projectiletrails.rainbowdust:
+    default: op
+  projectiletrails.enchant:
+    default: op
+  projectiletrails.water:
+    default: op
+  projectiletrails.waterdrip:
+    default: op
+  projectiletrails.turnoff:
+    default: true
